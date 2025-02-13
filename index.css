@@ -1,0 +1,64 @@
+
+#app {
+  text-align: center;
+  max-width: 600px;
+  padding: 2rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+/* Headings */
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+  padding-left: 20px;
+  color: green;
+}
+
+h2 {
+  padding-left: 20px;
+  background-color: #d7ca3d;
+}
+
+label {
+  padding: 0 10px 10px 20px;
+  font-weight: bold;
+}
+
+/* Buttons */
+button {
+  margin-left: 15px;
+  border-radius: 8px;
+  border: none;
+  padding: 0.8em 1.5em;
+  font-size: 1.1em;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #45b1d4;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+button:hover {
+  background-color: #d7ca3d;
+  transform: scale(1.05);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 3px auto -webkit-focus-ring-color;
+}
+
+p {
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+
